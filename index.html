@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" style="filter: invert();" type="image/x-icon" href="/assets/Logo1.png">
+    <title>Mahesh K-Portfolio</title>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-container" id="main-navbar">
+        <nav class="navbar" >
+            <div class="" >
+                <ul class="h5 nav-links" data-aos="fade-down">
+                    <li style="margin-right: auto;"><a class="logo-a" href="index.html">Portfolio</a></li>
+                    <li class="hide"><a href="#about">About Me</a></li>
+                    <li class="hide"><a href="#skills">Skills</a></li>
+                    <li class="hide"><a href="#project">Project</a></li>
+                    <li class="hide"><a href="#contact">Contact Me</a></li>
+                    <li class="hide" id="resume-btn" style="margin-left: auto;"><a href="https://drive.google.com/file/d/1AySlCvhJCiZRDPEcCxE4Hoi895K1_vWg/view?usp=sharing">Resume</a><i class="fa-solid fa-download"></i></li>
+                    <li class="menu" onclick="showsideBar()"><i class="fa-solid fa-bars"></i></li>
+                </ul>
+                <ul class="h5 sidebar hide">
+                    <li onclick="closesideBar()" class="close-btn"><i  class="fa-solid fa-xmark"></i></li>
+                    <li onclick="hidesideBar()"><a href="#about">About Me</a></li>
+                    <li onclick="hidesideBar()" ><a href="#skills">Skills</a></li>
+                    <li onclick="hidesideBar()" ><a href="#project">Project</a></li>
+                    <li onclick="hidesideBar()" ><a href="#contact">Contact ME</a></li>
+                    <li onclick="hidesideBar()" id="resume-btn"><a href="https://drive.google.com/file/d/1AySlCvhJCiZRDPEcCxE4Hoi895K1_vWg/view?usp=sharing">Resume</a>&nbsp;<i class="fa-solid fa-download"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Hero Section-->
+    <div class="container">
+        <div class="hero-section">
+            <div class="hero-heading typewriter" data-aos="fade-right">
+                <p  class="display-text ">Hello I'am <strong>Mahesh K.</strong></p>
+                <p class="display-text"><strong>Frontend</strong> <span class="outlined-text">Developer</span></p>
+                <p class="display-text">Based in <strong>India.</strong></p>
+                <div class="hero-description">
+                    <p class="paragraph">A passionate Frontend Web Developer and recent BCA graduate with an 8.6 CGPA. I specialize in creating responsive and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap. I've built multiple projects. I'm continuously learning and aiming to expand into full-stack development soon.</p></p>
+                </div>
+                <div class="social-links">
+                    <div>
+                        <a href="https://www.linkedin.com/in/mahesh-kudleppanavar-b59132258"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/MaheshKuleppanavar"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <div >
+                        <a href="https://api.whatsapp.com/send/?phone=8867468566&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="assets/MaheshBW1.png" alt="hero-image">
+            </div>
+        </div>
+    </div>
+    <!--My Skills-->
+    <div class="container" id="skills"  data-aos="fade-up">
+        <div class="skill-container" >
+            <div class="title display-text autoShow ">
+                <p>My <span style="font-weight: 800;">Skills</span></p>
+            </div>
+        <div class="grid-container ">
+            <div class="card ">
+                <i class="fa-brands fa-html5"></i>
+                 <h5>HTML</h5>
+            </div>
+            <div class="card ">
+                <i class="fa-brands fa-css3"></i>
+                 <h5>CSS</h5>
+            </div>
+            <div class="card ">
+                <i class="fa-brands fa-bootstrap"></i>
+                 <h5>Bootstrap</h5>
+            </div>
+            <div class="card ">
+                <i class="fa-brands fa-js"></i>
+                 <h5>JavaScript</h5>
+            </div>
+            <div class="card ">
+                <i class="fa-brands fa-git-alt"></i>
+                 <h5>Git</h5>
+            </div>
+            <div class="card ">
+                <i class="fa-brands fa-github"></i>
+                 <h5>Github</h5>
+            </div>
+            <div class="card ">
+                <i class="fa-brands fa-java"></i>
+                 <h5>Java</h5>
+            </div>
+            <div class="card ">
+                <i class="fa-brands fa-python"></i>
+                 <h5>Python</h5>
+            </div>
+            <div class="card ">
+                <i class="fa-solid fa-c"></i>
+                 <h5>C</h5>
+            </div>
+            <div class="card ">
+                <i class="fa-solid fa-database"></i>
+                 <h5>SQL</h5>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    <!--About Me-->
+    <div class="container" id="about" >
+        <div class="about-container">
+            <div class="about-image autoShow" data-aos="fade-up">
+                <img src="assets/AboutMe.png"  alt="">
+            </div>
+            <div class="about-content autoShow" data-aos="fade-up">
+                <div class="title display-text" >
+                    <p>About <span style="font-weight: 800;">Me</span></p>
+                </div>
+                <div class="description">
+                    <p>
+                        I'm a passionate, self-driven frontend developer who specializes 
+                        in building responsive, accessible websites using HTML, CSS, JavaScript, 
+                        and Bootstrap. I'm highly enthusiastic about transforming UI/UX designs 
+                        into functional, visually appealing digital experiences. User-friendly design, 
+                        responsiveness, and writing clean, maintainable code truly matter to me.
+                        I genuinely enjoy the process of building things from scratch and bringing ideas to life in the browser.
+                    </p>
+                    <p>
+                        My journey into web development began during my BCA, where I completed several
+                         hands-on projects and an internship that helped shape my skills. Now, as a 
+                         recent graduate with an 8.6 CGPA, I'm focused on growing as a developer and
+                          exploring modern tools to expand into full-stack development soon.
+                          Each project I work on pushes me to improve and think more creatively as a developer.
+                    </p>
+                    <p>
+                        When I’m not coding, I’m usually exploring tech trends, learning from open-source 
+                        projects, or improving my design-to-code workflow. You can check out my projects on
+                         GitHub or connect with me on LinkedIn to follow my learning journey.I believe consistent 
+                         learning and curiosity are the keys to building a successful career in tech.
+                         often experiment with side projects to apply what I learn in real scenarios.
+                         In my free time, I enjoy watching developer content, reading documentation, and staying updated with frontend trends.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!--My Projects-->
+    <div class="container bg-black" id="project">
+        <div class="projects-container" data-aos="fade-up">
+            <div class="sub-container" >
+                <div class="title display-text autoShow" data-aos="fade-up">
+                    <p>My <span style="font-weight:800;">Projects</span></p>
+                </div>
+                <div class="project-block" >
+                    <div class="project-image autoShow" data-aos="fade-up"> 
+                        <img src="assets/Wscubetech.png" alt="">
+                    </div>
+                    <div class="project-description autoShow" data-aos="fade-up">
+                        <h1 class="display-text">01</h1>
+                        <h2 class="h2">WS Cube Tech </h2>
+                        <p>Developed a clean, modern clone of WsCubeTech’s Digital Marketing program landing page using HTML, Bootstrap, CSS, and JavaScript. Replicated the original layout with a clear information hierarchy, bold CTAs, and visually engaging highlights to simulate an effective lead-generation and course sign-up experience.</p>
+                        <div class="quick-links">
+                            <div class="reveal-container">
+                                <a href="https://ws-cube-tech-clone.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <p class="reveal-text">Live</p>
+                            </div>
+                            <div class="reveal-container">
+                                <a href="https://github.com/MaheshKuleppanavar/ws-cubetech-clone"><i class="fa-brands fa-github"></i></a>
+                                <p class="reveal-text">Repo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-block project-block-2">
+                    <div class="project-image autoShow" data-aos="fade-up">
+                        <img src="assets/vcs.png" alt="">
+                    </div>
+                    <div class="project-description autoShow" data-aos="fade-up">
+                        <h1 class="display-text">02</h1>
+                        <h2 class="h2">VCS LMS</h2>
+                        <p>Developed a fully responsive and interactive frontend for VCS LMS based on provided designs. Implemented clean layouts, smooth navigation, and engaging course interfaces to ensure a seamless learning experience and better student interaction across devices.</p>
+                        <div class="quick-links">
+                            <div class="reveal-container">
+                                <a href="https://vcs-lms.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <p class="reveal-text">Live</p>
+                            </div>
+                            <div class="reveal-container">
+                                <a href="https://github.com/MaheshKuleppanavar/VCS-LMS-Project"><i class="fa-brands fa-github"></i></a>
+                                <p class="reveal-text">Repo</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="project-block">
+                    <div class="project-image autoShow" data-aos="fade-up">
+                        <img src="assets/usability.png" alt="">
+                    </div>
+                    <div class="project-description autoShow" data-aos="fade-up">
+                        <h1 class="display-text">03</h1>
+                        <h2 class="h2">UsabilityHub Landing Page</h2>
+                        <p>Recreated the UsabilityHub landing page as a pixel-perfect frontend clone using HTML, CSS, and JavaScript. Focused on replicating the original layout, styling, and responsiveness to match the real site’s design and deliver a smooth, consistent user experience across devices.</p>
+                        <div class="quick-links">
+                            <div class="reveal-container">
+                                <a href="https://usability-frontend-colne.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <p class="reveal-text">Live</p>
+                            </div>
+                            <div class="reveal-container">
+                                <a href="https://github.com/MaheshKuleppanavar/Usability-Frontend-Clone"><i class="fa-brands fa-github"></i></a>
+                                <p class="reveal-text">Repo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact Section-->
+    <div class="container" id="contact">
+        <div class="contact-section">
+            <div class="form-container autoShow" data-aos="fade-right">
+                <form action="#">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Your website(if exists)">
+                    <textarea name="query" id="" placeholder="How can i help you?" rows="4"></textarea>
+                    <div class="social-links">
+                        <button class="conect-btn">Get In Touch</button>
+                        <div>
+                            <a href="https://www.linkedin.com/in/mahesh-kudleppanavar-b59132258"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/MaheshKuleppanavar"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <div>
+                            <a href=""><i class="fa-brands fa-discord"></i></a>
+                        </div>
+                        <div>
+                            <a href="https://api.whatsapp.com/send/?phone=8867468566&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-info autoShow" data-aos="fade-up">
+                <div class="title">
+                    <h1 class="display-text">Let's <span class="outlined-text">talk</span> for</h1>
+                    <h1 class="display-text">something special</h1>
+                </div>
+                <div class="description">
+                    <p>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
+                </div>
+                <div class="contacts">
+                    <h3>maheshkudleppanavar@gmail.com</h3>
+                    <h3>+91 8867458566</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="container footer-container" >
+        <div class="footer" >
+            <div>
+                <a class="logo" href="#">Made with &nbsp;🤍&nbsp; by Mahirat</a>
+            </div>
+            <div>
+                <p>&copy;2025</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
