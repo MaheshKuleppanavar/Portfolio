@@ -1,7 +1,3 @@
-Perfect Mahesh 👍 Since your portfolio is live at **[maheshkudleppanavar.netlify.app](https://maheshkudleppanavar.netlify.app/)** and we already polished your LinkedIn write-up, I’ll now prepare a **GitHub README.md documentation** that explains your project clearly.
-
-Here’s a professional version tailored for GitHub:
-
 ---
 
 # 🎨 Illustration-Based Portfolio Website
@@ -81,3 +77,4 @@ While building this project, I:
 🔗 *If you like this project, consider giving it a ⭐ on GitHub!*
 
 ---
+
