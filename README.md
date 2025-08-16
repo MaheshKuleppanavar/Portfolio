@@ -1,5 +1,3 @@
----
-
 # 🎨 Illustration-Based Portfolio Website
 
 This is my **first portfolio project**, built from scratch to showcase my skills in **frontend web development**.
@@ -68,13 +66,14 @@ While building this project, I:
 
 **Mahesh Kudleppanavar**
 
-* 📧 \maheshkudleppanavar@gmail.com
-* 🌐 \https://www.linkedin.com/in/mahesh-kudleppanavar-b59132258?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3BqEeZ83%2FPSku2lg11OQ1yWg%3D%3D
-* 💻 Portfolio Website](https://maheshkudleppanavar.netlify.app/)
+* 📧 \[maheshkudleppanavar@gmail.com]
+* 🌐 \[https://www.linkedin.com/in/mahesh-kudleppanavar-b59132258?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3BqEeZ83%2FPSku2lg11OQ1yWg%3D%3D]
+* 💻 [Portfolio Website](https://maheshkudleppanavar.netlify.app/)
 
 ---
 
 🔗 *If you like this project, consider giving it a ⭐ on GitHub!*
 
 ---
+
 
